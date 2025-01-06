@@ -1,0 +1,1551 @@
+body{
+	background:#f9f8fb none 0 0 repeat !important;
+	margin:86px 0 0;
+}
+
+#commands{
+	background-color:transparent;
+	display:none;
+}
+
+#commands a{
+	font-weight:500;
+}
+
+#commands a:hover,#commands a:hover:first-child{
+	background-color:transparent;
+}
+
+#commands form{
+	display:inline-block;
+	padding:15px 10px;
+}
+
+#commands form .logoutCommand.submit{
+	background-color:transparent;
+	color:#fff;
+	font-size:1em;
+	font-weight:500;
+	padding:0;
+}
+
+.errors{
+	margin:10px 0;
+}
+
+ul.messages{
+	background-color:#66cdaa;
+	padding:5px;
+}
+
+ul.messages li{
+	list-style:none;
+}
+
+.SSForm .formField{
+	border:1px solid #ccc !important;
+	box-shadow:none;
+}
+
+.sectionContainer{
+	margin:0 auto;
+	max-width:1152px;
+	padding:0 16px;
+}
+
+hr{
+	color:#ccc;
+}
+
+.v6Admin{
+	font-size:1rem;
+	margin:40px auto;
+	max-width:1152px;
+	min-height:440px;
+	padding:0 16px;
+}
+
+.v6Admin h1{
+	background-color:transparent;
+	color:#016e84;
+	font-size:2rem;
+	font-weight:500;
+	line-height:1rem;
+	margin:0 0 1.5rem;
+	padding:0;
+}
+
+.WBClub365Menu{
+	background-color:#fff;
+	display:inline-block;
+	width:32%;
+	xborder:1px solid #ccc;
+	border-radius:5px;
+	box-shadow:0 1px 1px 0 rgba(0,0,0,.14),0 2px 1px -1px rgba(0,0,0,.12),0 1px 3px 0 rgba(0,0,0,.2);
+	margin:0 3% 0 0;
+	padding:0;
+	text-align:left;
+	vertical-align:top;
+}
+
+.WBClub365Menu a{
+	color:inherit;
+	font-size:1.125rem;
+}
+
+.WBClub365Menu span{
+	display:block;
+	padding:1rem;
+}
+
+.WBClub365Menu span.icon{
+	display:initial;
+	float:right;
+	height:24px;
+	padding:0;
+	width:24px;
+}
+
+.WBClub365Menu a{
+	margin:0 0 0 1rem;
+}
+
+.WBClub365Menu a.selected{
+	border-bottom:3px solid #008094;
+	color:#118093;
+	display:unset;
+	font-weight:700;
+	font-weight:500;
+	line-height:1.7em;
+	padding:0 0 5px;
+}
+
+.WBClub365Menu span svg{
+	width:7px;
+}
+
+.WBClub365Menu span svg path{
+	fill:#000;
+}
+
+.adminView{
+	border:.0625rem solid rgba(0,0,0,.125);
+	border-radius:.25rem;
+	padding:2.5rem 2rem;
+	width:65%;
+}
+
+.adminView,.dropdown .WBClub365Menu{
+	background-color:#fff;
+	display:inline-block;
+}
+
+.dropdown .WBClub365Menu{
+	border-radius:0;
+	box-shadow:none;
+	font-family:roboto_regular,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+	margin:0;
+	padding:0;
+	width:100%;
+}
+
+.dropdown .WBClub365Menu a{
+	display:block;
+	font-size:medium;
+	margin:0;
+}
+
+.dropdown .WBClub365Menu a.selected{
+	border-bottom:none;
+	color:initial;
+	font-weight:700;
+	font-weight:300;
+	line-height:1.7em;
+	padding:.5rem 25px;
+}
+
+.dropdown .WBClub365Menu a svg{
+	display:none;
+}
+
+.adminView .accountSummary{
+	background-color:#016e84;
+	background-image:url("//media.travsrv.com/appSkins/77062/v6/themes/standard/images/admin/suitcase.png");
+	background-position:right 50px center;
+	background-repeat:no-repeat;
+	background-size:160px;
+	border-radius:5px;
+	box-shadow:0 2px 2px rgba(0,0,0,.3);
+	color:#fff;
+	font-size:18px;
+	font-weight:500;
+	margin:0 0 2.5rem;
+	padding:25px;
+}
+
+.adminView .accountSummary label{
+	color:#fff;
+	font-size:1.375rem;
+	font-weight:700;
+	margin:0;
+}
+
+.adminView .accountSummary span{
+	display:block;
+	font-size:40px;
+	font-weight:900;
+	letter-spacing:-1px;
+	margin:0;
+}
+
+.adminView .accountSummary a{
+	display:block;
+	font-size:15px;
+	font-weight:300;
+	margin:0;
+	text-decoration:underline;
+	text-transform:uppercase;
+}
+
+.adminView .userCard{
+	border-radius:5px;
+	box-shadow:0 1px 1px 0 rgba(0,0,0,.14),0 2px 1px -1px rgba(0,0,0,.12),0 1px 3px 0 rgba(0,0,0,.2);
+	float:left;
+	margin:0 2% 0 0;
+	padding:70px 15px 15px;
+	position:relative;
+	text-align:center;
+	width:35%;
+}
+
+.adminView .userCard label{
+	background-color:#118093;
+	border-radius:0 20px 20px 0;
+	color:#fff;
+	left:0;
+	padding:5px 10px;
+	position:absolute;
+	top:15px;
+	width:50%;
+}
+
+.adminView .userCard .memberId label,.adminView .userCard .memberType label{
+	background-color:transparent;
+	color:#999;
+	display:block;
+	margin:0 auto;
+	position:static;
+	text-transform:uppercase;
+	width:100%;
+}
+
+.adminView .userCard .memberId span,.adminView .userCard .memberType span{
+	background-color:transparent;
+	color:#191919;
+	display:block;
+	font-size:1.1rem;
+	margin:0 auto;
+	position:static;
+	text-transform:uppercase;
+	width:100%;
+}
+
+.adminView .userCard .name{
+	border-bottom:1px solid #ddd;
+	display:inline-block;
+	font-size:20px;
+	margin:0 auto 10px;
+	padding:0 0 10px;
+	width:auto;
+}
+
+.adminView .userCard .image{
+	background-image:url("//media.travsrv.com/appSkins/77062/v6/themes/standard/images/admin/profile.png?v=2");
+	background-position:50%;
+	background-repeat:no-repeat;
+	background-size:100px;
+	height:120px;
+	margin:0 auto;
+	width:120px;
+}
+
+.adminView .userCard .email{
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+.adminView .WBProfileContainer .SSFormBody form fieldset#theMyAccountDetailsGroup{
+	float:left;
+	margin:0;
+	width:61%;
+}
+
+.adminView .SSFormBody form #thePasswordAjax{
+	float:right;
+	margin:-28px 0 0;
+}
+
+.adminView .SSFormBody form #thePasswordAjax a{
+	text-decoration:underline;
+}
+
+.adminView .SSFormBody form .FormActions{
+	float:right;
+	margin:0 auto 50px;
+	padding:18px 0 0;
+}
+
+.SSFormBody form #theMyAccountDetailsGroup label{
+	margin:5px 0 0;
+}
+
+#theMyAccountDetailsGroup label{
+	display:block;
+}
+
+#theMyAccountDetailsGroup label:first-child{
+	font-size:80%;
+}
+
+#theMyAccountDetailsGroup label:last-child{
+	font-size:1rem;
+}
+
+#theMyAccountDetailsGroup div.FormFields a{
+	color:#016e84;
+	float:right;
+	font-family:roboto_bold,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+	margin:-25px 0 0;
+	text-decoration:underline;
+}
+
+.adminView #theExpiresOnAjax{
+	xbackground-color:#eee;
+	xpadding:10px 15px;
+	line-height:1.7;
+	xmargin:10px 0 0;
+}
+
+.adminView #theExpiresOnAjax label{
+	margin:0;
+}
+
+.WBProfileContainer .SSFormBody form .FormActions .submit{
+	margin:0 0 0 auto;
+}
+
+.WBClub365ProfileFormFields legend{
+	font-family:roboto_bold,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+	font-size:1.375rem;
+	margin:0 0 1.5rem;
+}
+
+#theMyAccountDetailsGroup{
+	border:none;
+	margin:0;
+	padding:0 16px;
+}
+
+#theMembershipTermEditAjax{
+	display:none;
+}
+
+#theMyAccountDetailsGroup .editableSection{
+	border-bottom:.0625rem solid rgba(0,0,0,.1);
+	padding:1rem 0;
+}
+
+#theMyAccountDetailsGroup #theNameEditAjax.editableSection{
+	padding:0 0 1rem;
+}
+
+#theMyAccountDetailsGroup .editableSection h3{
+	font-size:1.5rem;
+	font-weight:400;
+	margin:0 0 1.5rem;
+}
+
+#theMyAccountDetailsGroup .editableSection .SSFormBody{
+	background-color:#f2f7f8;
+	float:none;
+	padding:1.25rem;
+	width:100%;
+}
+
+#theMyAccountDetailsGroup .editableSection fieldset{
+	margin:0;
+}
+
+#theMyAccountDetailsGroup .editableSection .FormActions{
+	float:none;
+	margin:0;
+	padding:0;
+}
+
+#theMyAccountDetailsGroup .editableSection fieldset div{
+	position:relative;
+}
+
+#theMyAccountDetailsGroup .editableSection fieldset div label{
+	color:#999;
+	font-size:10px;
+	left:29px;
+	position:absolute;
+	top:0;
+	z-index:1;
+}
+
+#theMyAccountDetailsGroup .editableSection fieldset div input,#theMyAccountDetailsGroup .editableSection fieldset div select{
+	color:#686868;
+	margin:0 0 .5rem;
+	padding:1.25rem 1.5rem 0 !important;
+	width:100%;
+}
+
+#theMyAccountDetailsGroup .editableSection a.CancelAction{
+	color:#000;
+	display:inline-block;
+	float:none;
+	text-decoration:none;
+	text-transform:uppercase;
+	width:50%;
+}
+
+.adminView .submit{
+	background:#016e84 none repeat scroll 0 0;
+	border-radius:50rem;
+	display:inline-block;
+	margin:0;
+}
+
+.adminView .submit:hover{
+	background:#014e5e none repeat scroll 0 0;
+}
+
+#theMyAccountDetailsGroup .editableSection .submit{
+	background:#016e84 none repeat scroll 0 0;
+	border-radius:50rem;
+	display:inline-block;
+	margin:0;
+	text-transform:uppercase;
+	width:50%;
+}
+
+#theMyAccountDetailsGroup .editableSection .submit:hover{
+	background:#014e5e none repeat scroll 0 0;
+}
+
+#theMyAccountDetailsGroup .editableSection #thePasswordAjax{
+	float:none;
+	margin:0;
+}
+
+#theMyAccountDetailsGroup #theMembershipTermEditAjax.editableSection h3{
+	margin:0;
+}
+
+#theMyAccountDetailsGroup #theMembershipTermEditAjax.editableSection fieldset{
+	border:none;
+}
+
+#theMyAccountDetailsGroup #theMembershipTermEditAjax.editableSection fieldset div label{
+	color:#7c7b7d;
+	font-size:80%;
+	margin:0;
+	position:static;
+}
+
+#theMyAccountDetailsGroup #theMembershipTermEditAjax.editableSection fieldset div label:nth-child(2){
+	color:#000;
+	font-size:100%;
+}
+
+#theMyAccountDetailsGroup #theMembershipTermEditAjax.editableSection .FormActions{
+	padding:20px 0;
+	text-align:left;
+}
+
+#theMyAccountDetailsGroup #theMembershipTermEditAjax.editableSection a.CancelAction{
+	text-align:right;
+	width:100%;
+}
+
+.adminView .accountSummary{
+	background-position:right 20px top 15px;
+}
+
+.adminView .WBClub365TravelCredits .WBClub365TravelCredits{
+	overflow-x:scroll;
+}
+
+.adminView .WBClub365TravelCredits .accountSummary span{
+	margin:6px 0;
+	xborder-bottom:1px solid #85c4d2;
+	line-height:1em;
+	padding:0 0 20px;
+	width:67%;
+}
+
+.adminView .WBClub365TravelCredits .addCredits label{
+	display:block;
+	margin:0 0 10px;
+}
+
+.adminView .addCredits input.text{
+	border:none;
+	box-shadow:0 2px 1px 0 rgba(0,0,0,.2);
+	display:inline-block;
+	width:80%;
+}
+
+.adminView .addCredits input.submit{
+	background-color:#d4441c;
+	border-radius:5px;
+	box-shadow:0 2px 1px 0 rgba(0,0,0,.2);
+	margin:0 0 0 1%;
+	width:19%;
+}
+
+.adminView .addCredits div{
+	font-size:16px;
+	font-weight:300;
+	margin:10px 0 0;
+}
+
+.WBClub365ManageUsers ul.errors,.WBClub365ManageUsers ul.messages{
+	background-color:#ffe7e5;
+	border:.0625rem solid #fff8f8;
+	border-radius:.25rem;
+	color:#000;
+	margin-bottom:1rem;
+	padding:.75rem 1.25rem;
+}
+
+.WBClub365ManageUsers ul.messages{
+	background-color:#dbfce0;
+	border-color:#e7fcea;
+}
+
+
+.WBClub365ManageUsers .SSFormBody form .FormActions{
+	margin:25px auto 0;
+}
+
+.WBClub365ManageUsers .SSFormBody form fieldset{
+	margin:0;
+}
+
+.adminView .WBClub365ManageUsers .userCard{
+	float:none;
+	min-height:420px;
+	transition:all .3s ease-out 0s;
+}
+.adminView .WBClub365ManageUsers .userCard,x.adminView .WBClub365ManageUsers div:first-child{
+	box-shadow:0 1px 4px -1px rgba(0,0,0,.3);
+	display:inline-block;
+	margin:0 1.9% 25px;
+	vertical-align:top;
+	width:46%;
+}
+x.adminView .WBClub365ManageUsers div:first-child{
+	min-height:350px;
+	padding:20px;
+}
+
+.adminView .WBClub365ManageUsers .userCard:hover{
+	box-shadow:0 1px 4px -1px rgba(0,0,0,.6);
+}
+
+.WBClub365Reservations .filters .advancedIcon{
+	display:none;
+}
+
+.filters{
+	border:2px solid #ccc;
+	border-radius:20px;
+	float:right;
+	margin:-56px 0 0;
+}
+
+.filters a{
+	xbackground-color:#fff;
+	padding:4px 15px;
+	xborder-radius:20px 0 0 20px;
+	color:#000;
+	text-transform:uppercase;
+	xborder:2px solid #ccc;
+}
+
+.filters a:last-child{
+	xborder-radius:0 20px 20px 0;
+}
+
+.filters a.selected{
+	background-color:#118093;
+	border-radius:20px 0 0 20px;
+	color:#fff;
+}
+
+.filters a:last-child.selected{
+	border-radius:0 20px 20px 0;
+}
+
+.reservations .reservation{
+	box-shadow:0 1px 4px 0 rgba(0,0,0,.2);
+	margin:0 0 20px;
+	padding:25px;
+}
+
+.reservations .reservation .image{
+	background-image:url("//media.travsrv.com/appSkins/77062/v6/themes/standard/images/admin/hotel.png");
+	background-position:50%;
+	background-repeat:no-repeat;
+	display:inline-block;
+	height:40px;
+	margin:18px 0 0;
+	vertical-align:top;
+	width:40px;
+}
+
+.reservations .reservation .hotelInfo{
+	display:inline-block;
+	padding:15px;
+	vertical-align:top;
+	width:40%;
+	width:46%;
+}
+
+.reservations .reservation .hotel{
+	font-size:25px;
+	line-height:1.4;
+}
+
+.reservations .reservation .confirmation,.reservations .reservation .stay{
+	color:#999;
+}
+
+.reservations .reservation .confirmation label{
+	margin:0 5px 0 0;
+}
+
+.reservations .reservation .credits{
+	font-size:22px;
+	font-weight:900;
+}
+
+.SSFormBody form fieldset{
+	border:none;
+	border-radius:0;
+	display:block;
+	margin:30px 0 0;
+	min-height:auto;
+	padding:0;
+	position:static;
+	text-align:left;
+	transition:all .3s ease-out 0s;
+	vertical-align:top;
+	width:100%;
+}
+
+.SSFormBody form fieldset,.SSFormBody form fieldset:hover{
+	background-color:transparent;
+	box-shadow:none;
+}
+
+.SSFormBody form legend{
+	border-bottom:none;
+	font-size:20px;
+	margin-top:0;
+	padding:0 0 3px;
+	position:static;
+}
+
+.SSFormBody form .FormActions{
+	margin:25px auto 50px;
+	max-width:1280px;
+	text-align:right;
+	width:100%;
+}
+
+.v6Admin .nav{
+	background-color:transparent;
+	border-bottom:none;
+	display:none;
+	float:right !important;
+}
+
+.v6Admin .nav a{
+	color:#000;
+	display:inline-block;
+	font-size:16px;
+	font-weight:700;
+	letter-spacing:1px;
+	margin:75px 0 0;
+	padding:0;
+	text-decoration:underline;
+	text-transform:uppercase;
+
+}
+
+table td,table th{
+	background-color:transparent;
+}
+
+table{
+	background-color:#fff;
+	border-collapse:collapse;
+	border-spacing:0;
+	padding:20px;
+	width:100%;
+}
+
+table tr:nth-child(2n){
+	background:#f9f8fb !important;
+	border-radius:5px;
+}
+
+table td,table th{
+	xtext-align:center;
+}
+
+table td:last-child,table th:last-child{
+	text-align:right;
+}
+
+table td,table th{
+	overflow:hidden;
+	padding:7.5px;
+	text-overflow:ellipsis;
+	text-transform:capitalize;
+	white-space:nowrap;
+}
+
+.CancelAction{
+	display:block;
+	text-align:center;
+}
+
+.SSFormBody form{
+	text-align:left;
+}
+
+.SSFormBody form .FormActions .submit{
+	display:block;
+	margin:0 auto;
+}
+
+.submit:hover{
+	background:#118093 none repeat scroll 0 0;
+}
+
+#commands a.organizationsCommand,#commands a.profileCommand{
+	display:none;
+}
+
+.ArnSupportLinks.ArnSupportBottom,footer{
+	background-color:#fff;
+	margin:0;
+	padding:50px 0 0;
+}
+
+footer{
+	padding:20px 0 0;
+}
+
+.addCredits,x.WBClub365TravelCredits .WBClub365TravelCredits{
+	display:none;
+}
+
+body{
+	background:#fff none 0 0 repeat !important;
+	font-family:Roboto,sans-serif;
+	font-size:16px;
+	font-weight:400;
+}
+
+table tr:nth-child(2n){
+	background:#e0eff9 !important;
+}
+
+.v6Admin h1{
+	color:#36382e;
+	color:#000;
+	font-family:SohneBreitFett,sans-serif;
+	font-size:1.25rem;
+	font-weight:700;
+	letter-spacing:.2em;
+	text-transform:uppercase;
+}
+
+.adminView h1{
+	margin-left:0;
+	padding:0;
+	width:100%;
+}
+
+#theMembershipTermEditAjax{
+	display:block;
+}
+
+#theMyAccountDetailsGroup .editableSection h3{
+	font-family:inherit;
+	font-size:16px;
+	font-weight:700;
+}
+
+.WBClub365Menu span{
+	padding:0;
+}
+
+.WBClub365Menu span.number{
+	background-color:#fff;
+	border:2px solid #ccc;
+	border-radius:50%;
+	color:#ccc;
+	font-family:SohneBreitDreiviertelfett;
+	font-size:24px;
+	line-height:60px;
+	text-align:center;
+	width:60px;
+}
+
+.WBClub365Menu .selected span.number{
+	background-color:#36382e;
+	border:1px solid #36382e;
+	color:#fff;
+}
+
+.WBClub365Menu span.icon{
+	display:none;
+}
+
+.WBClub365Menu a{
+	font-size:16px;
+	font-weight:500;
+	margin:0;
+}
+
+.WBClub365Menu a,.WBClub365Menu a.selected{
+	color:#36382e;
+	display:block;
+	padding:.5rem 0;
+}
+
+.WBClub365Menu a.selected{
+	border-bottom:none;
+	font-weight:600;
+}
+
+.WBClub365ProfileFormFields legend{
+	font-family:SohneBreitKraftig;
+	font-size:24px;
+	font-weight:500;
+	margin:1rem 0 1.5rem;
+}
+
+.adminView{
+	border:none;
+	padding:2.5rem 0;
+	width:75%;
+}
+
+.accoundDetails{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.accoundDetails .membershipInfo{
+	display:table;
+	margin:1rem 0 0;
+	padding-left:70px;
+	width:100%;
+}
+
+.accoundDetails .memberInfo,.accoundDetails .memberInfo:last-child{
+	display:table-cell;
+	width:50%;
+}
+
+.accoundDetails .memberInfo label{
+	display:block;
+	font-family:SohneBreitKraftig;
+	font-size:14px;
+	font-weight:lighter;
+	letter-spacing:2px;
+	margin:0;
+	text-transform:uppercase;
+}
+
+.accoundDetails .memberInfo span{
+	display:block;
+	font-weight:700;
+}
+
+.accoundDetails .memberDetails{
+	background-color:initial;
+	border:1px solid #ccc;
+	border-radius:.25rem;
+	margin:0;
+	padding:2rem;
+	width:100%;
+}
+
+x.accoundDetails .memberDetails svg{
+	float:left;
+}
+
+.accoundDetails .memberDetails .arnliusername{
+	color:#303031;
+	display:block;
+	font-size:24px;
+	font-weight:600;
+	margin:0;
+	padding-left:18px;
+}
+
+.accoundDetails .memberName{
+	display:flex;
+	position:relative;
+	text-align:initial;
+}
+
+.accoundDetails .accountSummary{
+	padding:1rem;
+	width:30%;
+}
+
+.adminView .accountSummary{
+	background-color:#003268;
+	background-image:none;
+	xcolor:#0a0405;
+	box-shadow:none;
+	display:none;
+	margin:0;
+}
+
+.adminView .accountSummary span{
+	font-size:2rem;
+	font-weight:700;
+	letter-spacing:0;
+}
+
+.adminView .topTitle{
+	display:block;
+	font-size:30px;
+	margin:0 0 4.75rem;
+	padding-left:15%;
+	text-align:initial;
+	width:100%;
+}
+
+.adminView .WBClub365TravelCredits .accountSummary .balance{
+	float:left;
+}
+
+.adminView .accountSummary span.imageContainer{
+	margin:-25px 10px 0 0;
+	width:auto;
+	xbackground-color:#fff;
+	border-radius:50%;
+	float:right;
+	padding:.5rem .25rem;
+	text-align:center;
+}
+
+.adminView .accountSummary img{
+	width:85%;
+}
+
+.adminView .accountSummary a{
+	color:#fff;
+	font-weight:500;
+	text-transform:none;
+	xcolor:#003268;
+}
+
+#theMyAccountDetailsGroup #theExpiresOnAjax{
+	xdisplay:none;
+}
+
+.adminView #theExpiresOnAjax label{
+	margin-left:10px;
+}
+
+#theMyAccountDetailsGroup{
+	padding:0;
+}
+
+#theMyAccountDetailsGroup label:first-child{
+	color:#7c7b7d;
+}
+
+#theMyAccountDetailsGroup legend{
+	xdisplay:none;
+}
+
+.adminView .userCard label{
+	background-color:#221b1b;
+	border-radius:0;
+	width:135px;
+	xtext-align:left;
+	margin:0;
+	padding:8px;
+}
+
+.adminView .userCard label:after,.adminView .userCard label:before{
+	border-bottom:20px solid #221b1b;
+	border-left:15px solid transparent;
+	border-right:15px solid transparent;
+	content:"";
+	height:0;
+	position:absolute;
+	right:-15px;
+	top:0;
+	transform:rotate(180deg);
+	width:0;
+}
+
+.adminView .userCard label:after{
+	bottom:0;
+	right:-15px;
+	top:auto;
+	transform:rotate(0deg);
+}
+
+.adminView .userCard .memberId label:after,.adminView .userCard .memberId label:before,.adminView .userCard .memberType label:after,.adminView .userCard .memberType label:before{
+	display:none;
+}
+
+.adminView .userCard .image{
+	background-image:url("//media.travsrv.com/appSkins/67908/v6/themes/standard/images/admin/profile.png?v=4");
+}
+
+#theMyAccountDetailsGroup div.FormFields a{
+	color:#36382e;
+	font-family:Roboto,sans-serif;
+}
+
+#theMyAccountDetailsGroup #theMembershipTermEditAjax.editableSection a.CancelAction{
+	text-align:center;
+	width:50%;
+}
+
+#theMyAccountDetailsGroup .editableSection .SSFormBody{
+	background-color:#f6f6f6;
+}
+
+.adminView .submit{
+	background:#f6bc25 none repeat scroll 0 0;
+	border-radius:.25rem;
+	width:100%;
+}
+
+.adminView .submit:hover{
+	background-color:#e8ac10;
+}
+
+#theMyAccountDetailsGroup .editableSection .submit{
+	background:#f6bc25 none repeat scroll 0 0;
+}
+
+#theMyAccountDetailsGroup .editableSection .submit:hover{
+	background:#e8ac10 none repeat scroll 0 0 !important;
+}
+
+.WBClub365TravelCredits .accoundDetails .memberDetails{
+	display:none;
+}
+
+.WBClub365TravelCredits{
+	xposition:relative;
+}
+
+.WBClub365TravelCredits a{
+	float:right;
+	margin:-75px 0 0;
+	text-decoration:underline;
+}
+
+.WBClub365TravelCredits .accoundDetails .accountSummary{
+	width:100%;
+}
+
+.WBClub365TravelCredits .WBClub365TravelCredits{
+	display:block;
+}
+
+.WBClub365Menu span svg{
+	display:none !important;
+}
+
+.adminView .WBClub365ManageUsers .userCard:hover{
+	box-shadow:0 1px 4px -1px rgba(0,0,0,.7);
+}
+
+.adminView .userCard .name{
+	font-size:24px;
+	font-weight:700;
+}
+
+.filters a.selected{
+	background-color:#221b1b;
+	padding:3px 15px;
+}
+
+.filters{
+	margin:-85px 0 0;
+}
+
+.reservations .priorReservationsMessage{
+	background-color:#f4f4f4;
+	border:2px solid #1063e9;
+	border-radius:.25rem;
+	display:none;
+	margin:0 0 1rem;
+	padding:1rem .25rem;
+	text-align:center;
+}
+
+.reservations .reservation{
+	background-color:#f5eee3;
+	border-radius:.25rem;
+	box-shadow:none;
+	padding:5px 25px;
+}
+
+.reservations .reservation .hotel{
+	font-size:1.2rem;
+	font-weight:700;
+}
+
+.reservations .reservation .hotelInfo{
+	width:52%;
+}
+
+.reservations .reservation .credits{
+	display:none;
+	font-size:1rem;
+	font-weight:700;
+}
+
+.reservations .reservation .confirmation,.reservations .reservation .stay{
+	color:initial;
+}
+
+.submit:hover{
+	background:#003268 none repeat scroll 0 0;
+}
+
+.WBClub365Menu span:nth-child(2),.WBClub365Menu span:nth-child(3),.adminView .userCard{
+	display:block;
+}
+
+footer{
+	background-color:#221b1b;
+	padding:initial;
+}
+
+
+.advancedIcon{
+	display:none;
+}
+
+.accoundDetails legend{
+	font-size:1.25rem;
+	margin:4rem 0 1.5rem;
+}
+
+.accoundDetails legend,.adminView .topTitle span{
+	font-family:SohneBreitFett,sans-serif;
+	font-weight:700;
+	letter-spacing:.2em;
+	text-transform:uppercase;
+}
+
+.adminView .topTitle span{
+	color:#000;
+	font-size:2.25rem;
+}
+
+.adminView .topTitle:after{
+	background-color:#f5eee3;
+	height:4px;
+	left:auto;
+	margin-left:0;
+	right:0;
+	top:auto;
+	width:135%;
+}
+
+.accoundDetails .memberName .nameDivider{
+	background-color:#f2b900;
+	height:5px;
+	left:70px;
+	position:absolute;
+	top:50px;
+	width:45px;
+}
+
+.accoundDetails .memberName svg{
+	margin-top:10px;
+	fill:#36382e;
+}
+
+.WBClub365ReservationsWithSavings .filters{
+	margin:-45px 0 0;
+}
+
+.WBClub365ReservationsWithSavings .reservation{
+	background-color:#fff;
+	border-radius:5px;
+	box-shadow:0 0 5px rgba(0,0,0,.5);
+	position:relative;
+}
+
+.WBClub365ReservationsWithSavings .reservation .hotelInfo{
+	width:100%;
+}
+
+.WBClub365ReservationsWithSavings .reservation .image{
+	position:absolute;
+	right:15px;
+	top:0;
+}
+
+.WBClub365ReservationsWithSavings .reservation .hotelInfo .status{
+	background-color:#ccc;
+	border-radius:5px;
+	display:inline-block;
+	font-size:.75em;
+	padding:2px 10px;
+	text-transform:uppercase;
+}
+
+.WBClub365ReservationsWithSavings .reservation .hotelInfo .hotel{
+	margin-top:10px;
+}
+
+.WBClub365ReservationsWithSavings .reservation .hotelInfo .stay{
+	margin-top:55px;
+}
+
+.WBClub365ReservationsWithSavings .reservation .hotelInfo .stay .multiline{
+	display:inline-block;
+}
+
+.WBClub365ReservationsWithSavings .reservation .hotelInfo .stay .multiline div:first-of-type{
+	font-weight:700;
+}
+
+.WBClub365ReservationsWithSavings .reservation .hotelInfo .stay .multiline:not(:first-of-type){
+	border-left:1px solid #ccc;
+	margin-left:10px;
+	padding-left:10px;
+}
+
+.WBClub365ReservationsWithSavings .reservation .reservationActions a{
+	border-top:1px solid #ccc;
+	display:block;
+	padding:15px;
+}
+
+.WBClub365ReservationsWithSavings .reservation .reservationActions a:after{
+	content:">";
+	float:right
+}
+
+.WBClub365ReservationsWithSavings .reservation .hotelInfo .stay .multiline:not(:first-of-type){
+	margin-left:20px;
+	padding-left:20px;
+}
+
+.WBClub365Menu a{
+	text-decoration:none;
+}
+
+@media only screen and (max-width:1000px){
+	body{
+		margin:0;
+	}
+
+	.v6Admin{
+		margin:0 auto;
+		padding:0;
+	}
+
+	.WBClub365Menu{
+		background:transparent;
+		border:none;
+		margin:0;
+		padding:0;
+		width:100%;
+	}
+
+	.adminView{
+		width:100%;
+	}
+
+	.infoFields{
+		width:90%;
+	}
+
+	.SSFormBody form legend{
+		border-bottom:none;
+		border-top:none;
+	}
+	#mobile-input:checked~#header .navRow{
+		z-index:1;
+	}
+
+	#commands{
+		border:none;
+		text-align:left;
+	}
+
+	#commands a{
+		padding:10px 5px 10px 30px;
+	}
+
+	#commands a:first-child{
+		font-weight:300;
+		text-align:left;
+	}
+
+	#commands form{
+		padding:10px 5px 10px 30px;
+	}
+	.userCard label{
+		position:absolute !important;
+	}
+
+	.userCard div label{
+		position:static !important;
+	}
+	.adminView .topTitle{
+		display:none;
+	}
+
+	.adminView{
+		display:block;
+		margin:4vh auto;
+		width:92vw;
+	}
+
+	.adminView h1{
+		width:91vw;
+	}
+
+	.WBClub365Menu{
+		background-color:#fff;
+		border-left:none;
+		border-radius:0;
+		border-right:none;
+	}
+
+	.WBClub365Menu span{
+		display:inline-block;
+	}
+
+	.WBClub365Menu span.icon{
+		display:none;
+	}
+
+	.WBClub365Menu a,.WBClub365Menu a.selected{
+		padding:1rem 2rem;
+	}
+
+	.WBClub365Menu a.selected{
+		background-color:transparent;
+		font-weight:600;
+	}}
+
+@media only screen and (max-width:600px){
+	.adminView{
+		width:100%;
+		xborder:none;
+		background-color:#fff;
+		border-radius:0;
+		margin:2rem auto 0;
+		padding:2rem;
+	}
+
+	.v6Admin h1{
+		font-size:1.5rem;
+	}
+
+	.SSFormBody form .FormActions{
+		width:100% !important;
+	}
+
+	.WBClub365Menu{
+		border:none;
+		border-radius:0;
+		overflow-x:scroll;
+		padding:0;
+		white-space:nowrap;
+		width:100%;
+	}
+
+	.WBClub365Menu span{
+		display:table-cell;
+		padding:1rem;
+		white-space:nowrap;
+		width:100%;
+	}
+
+	.WBClub365Menu span.icon{
+		float:none;
+		padding:0 0 0 16px;
+	}
+	.adminView .accountSummary{
+		background-position:right 10px top 38px;
+		background-size:100px;
+	}
+
+	.adminView .accountSummary span{
+		font-size:40px;
+	}
+
+	.adminView .userCard{
+		background-color:#fff;
+		float:none;
+		margin:0 0 15px;
+		width:100%;
+	}
+
+	.adminView .userCard label{
+		width:60%;
+	}
+
+	.adminView .WBProfileContainer .SSFormBody form fieldset#theMyAccountDetailsGroup{
+		float:none;
+		margin:1.5rem 0 0;
+		width:100%;
+	}
+
+	.WBProfileContainer .SSFormBody form .FormActions .submit,.adminView .WBProfileContainer .SSFormBody form fieldset{
+		width:100%;
+	}
+
+	.adminView .WBClub365ManageUsers .userCard{
+		background-color:#fff;
+		margin:10px 0;
+		min-height:auto;
+		width:100%;
+	}
+
+	.adminView .WBClub365ManageUsers .userCard .submit{
+		width:90%;
+	}
+	.filters{
+		display:block;
+		float:none;
+		margin:0 auto 30px;
+		width:182px;
+	}
+
+	.reservations .reservation{
+		padding:15px;
+	}
+
+	.reservations .reservation .image{
+		float:right;
+		margin:0;
+	}
+
+	.reservations .reservation .hotelInfo{
+		padding:0 15px;
+		width:85%;
+	}
+
+	.reservations .reservation .hotel{
+		font-size:18px;
+	}
+
+	.reservations .reservation .credits{
+		font-size:18px;
+		text-align:left;
+	}
+	.WBClub365Menu span{
+		width:auto;
+	}}
+
+@media only screen and (min-width:1000px){
+	.WBClub365Menu{
+		box-shadow:none;
+		margin:10rem 3% 0 0;
+		width:22%;
+	}}
+
+@media only screen and (max-width:650px){
+	.adminView .accountSummary span.imageContainer{
+		margin:0 10px 0 0;
+	}
+
+	.accoundDetails .membershipInfo{
+		display:block;
+	}
+
+	.accoundDetails .memberInfo label{
+		margin:0;
+	}
+	.WBClub365TravelCredits a{
+		float:left;
+		margin:-59px 0 0;
+	}
+	.filters{
+		margin:0 0 1rem;
+		width:198px;
+	}
+
+	.reservations .reservation .image{
+		float:left;
+	}
+
+	.reservations .reservation .hotelInfo{
+		padding:0;
+		width:100%;
+	}}
+
+@media only screen and (max-width:700px){
+
+	.accoundDetails .memberDetails,.adminView .accountSummary{
+		margin:0 0 1em;
+		width:100%;
+	}
+
+	.adminView h1{
+		display:none;
+	}}
+
+@media only screen and (max-width:500px){
+	.accoundDetails .memberInfo{
+		display:block;
+		margin-bottom:20px;
+		width:100%;
+	}}
+
+@media only screen and (max-width:400px){
+	#theMyAccountDetailsGroup div.FormFields a{
+		float:none;
+	}}
+
+@media screen and (max-width:450px){
+
+	.WBClub365ReservationsWithSavings .reservation .hotelInfo .hotel{
+		width:75%;
+	}
+
+	.WBClub365ReservationsWithSavings .reservation .hotelInfo .stay{
+		align-items:flex-start;
+		display:flex;
+		flex-direction:column;
+		gap:10px;
+		margin-bottom:15px;
+	}
+
+	.WBClub365ReservationsWithSavings .reservation .hotelInfo .stay .multiline:not(:first-of-type){
+		border-left:none;
+		margin-left:0;
+		padding-left:0;
+	}}

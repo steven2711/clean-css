@@ -1,0 +1,26 @@
+{
+  "name": "get-html",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "purgecss": "USE_PURGECSS=true postcss css/*.css -o cleaned/clean.css",
+    "clean:css": "USE_PURGECSS=false postcss css/*.css -d cleaned/",
+    "parseBranding": "node process-css.js ./cleaned/clean.css parsedBranding"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^6.0.0",
+    "cssnano": "^7.0.4",
+    "postcss": "^8.4.40",
+    "postcss-cli": "^11.0.0",
+    "postcss-combine-media-query": "^1.0.1",
+    "postcss-discard-duplicates": "^7.0.0",
+    "postcss-merge-rules": "^7.0.2",
+    "postcss-url": "^10.1.3",
+    "puppeteer": "^22.14.0"
+  }
+}

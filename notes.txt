@@ -1,0 +1,10 @@
+This app is specific to the arn general websites. Websites that deviate from the standard schema will need some modification in this code.
+
+
+- Assumptions
+
+1. The root search page uses the location search component. This is how we begin the journey through the funnel.
+2. The site needs to have Test Mode Reservation enabled in TripAuthority in order to complete a transaction.
+
+
+CSS has 22187
