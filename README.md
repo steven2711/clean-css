@@ -20,14 +20,13 @@ A Node.js-based web scraping tool designed specifically for ARN (AllResNet) gene
 
 - Node.js (Latest LTS version recommended)
 - NPM (Included with Node.js)
-- Access to an ARN website with Test Mode Reservation enabled in TripAuthority
 
 ## 🚀 Installation
 
 1. Clone the repository:
 ```bash
 git clone [repository-url]
-cd get-html
+cd [your-repo]
 ```
 
 2. Install dependencies:
@@ -128,8 +127,7 @@ This project is licensed under the ISC License.
 ## ⚠️ Assumptions and Requirements
 
 1. The target website must use the location search component on the root search page
-2. Test Mode Reservation must be enabled in TripAuthority for complete funnel traversal
-3. Sites should follow the standard ARN schema - deviations may require code modifications
+2. Sites should follow the standard ARN schema - deviations may require code modifications
 
 ## 👏 Credits
 
