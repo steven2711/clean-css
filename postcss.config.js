@@ -1,5 +1,4 @@
 const usePurgeCSS = process.env.USE_PURGECSS === 'true';
-const extractBranding = require('./postcss-extract-branding');
 
 module.exports = {
   plugins: [

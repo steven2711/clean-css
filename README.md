@@ -39,10 +39,8 @@ npm install
 {
   "siteid": "YOUR_SITE_ID",
   "baseUrl": "YOUR_BASE_URL",
-  "loginUrl": "YOUR_LOGIN_URL",
   "username": "YOUR_USERNAME",
   "password": "YOUR_PASSWORD"
-  // ... other configuration options
 }
 ```
 
@@ -50,24 +48,20 @@ npm install
 
 ### Basic Usage
 
-Run the main scraping process:
+- Download a site ID as you normally would via download scripts
+- Update `data.json` with your site-specific information
+- Add the CSS file you wish to process to the `css` directory
+- Run the main scraping process:
+
 ```bash
 npm start
 ```
 
 ### CSS Processing
 
-Process and optimize CSS:
-```bash
-# Run CSS purging
-npm run purgecss
-
-# Clean CSS without purging
-npm run clean:css
-
-# Extract branding-specific CSS
-npm run parseBranding
-```
+- The tool will automatically handle the login process, traverse the reservation funnel, and save the HTML content to the `pages` directory
+- The tool will also automatically process the CSS file and save the optimized CSS to the `cleaned` directory
+- CSS purge rules are defined in `postcss.config.js`
 
 ## ⚙️ Configuration
 
@@ -75,10 +69,9 @@ The tool can be configured through `data.json` with the following options:
 
 - `siteid`: Your ARN site identifier
 - `baseUrl`: Base URL of the target website
-- `loginUrl`: Authentication endpoint
 - `username`/`password`: Login credentials
-- `useRegistrationFlow`: Enable/disable registration flow scraping
-- `arnPages`: Array of ARN native pages to scrape
+- `arnRegisterPage`: Array of ARN register pages to scrape
+- `arnAdminPages`: Array of ARN admin pages to scrape
 - `arnParamPages`: Array of parameter-based pages
 - `staticPages`: Array of static pages (auto-populated)
 - `errorPages`: Array for tracking failed page fetches
@@ -110,6 +103,7 @@ get-html/
   - 🔧 Improve error handling
   - 📊 Refactor server.js for better code organization
   - ✨ Enhanced registration flow handling
+  - ✅ Add additional ARN pages to scrape
 
 ## 🧪 Testing
 
@@ -127,7 +121,8 @@ This project is licensed under the ISC License.
 ## ⚠️ Assumptions and Requirements
 
 1. The target website must use the location search component on the root search page
-2. Sites should follow the standard ARN schema - deviations may require code modifications
+2. Test Mode Reservation must be enabled in TripAuthority for complete funnel traversal
+3. Sites should follow the standard ARN schema - deviations may require code modifications
 
 ## 👏 Credits
 

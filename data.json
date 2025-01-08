@@ -1,23 +1,16 @@
 {
   "siteid": "",
   "baseUrl": "",
-  "loginUrl": "",
   "username": "",
   "password": "",
-  "useRegistrationFlow": true,
-  "isAuthSite": true,
-  "newUserEmail": "",
-  "newUserPassword": "",
-  "firstName": "Test",
-  "lastName": "User",
-  "arnRegisterPages": [
+  "arnRegisterPage": [
     "/register"
   ],
   "arnParamPages": [
     "type=destination",
     "type=hotellist"
   ],
-  "arnPages": [
+  "arnAdminPages": [
     "/admin/my-account-summary",
     "/admin/my-reservations",
     "/admin/travel-credits"

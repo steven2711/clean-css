@@ -1,13 +1,12 @@
 {
-  "name": "get-html",
+  "name": "clean-css",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "purgecss": "USE_PURGECSS=true postcss css/*.css -o cleaned/clean.css",
-    "clean:css": "USE_PURGECSS=false postcss css/*.css -d cleaned/",
-    "parseBranding": "node process-css.js ./cleaned/clean.css parsedBranding"
+    "clean:css": "USE_PURGECSS=false postcss css/*.css -d cleaned/"
   },
   "author": "",
   "license": "ISC",
